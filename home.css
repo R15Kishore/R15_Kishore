@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Samsung Sharp Sans" sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.nav-bar {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 5px 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.logo img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.search-box {
+  display: flex;
+  flex: 1;
+  margin: 0px 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-box button {
+  background-color: black;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: gray;
+  color: black;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.nav-icon {
+  margin: 20px;
+}
+.nav-icon i {
+  color: black;
+  margin: 10px;
+}
+.nav-icon i:hover {
+  color: rgb(252, 176, 0);
+}
+.nav-icon button {
+  border-radius: 45px;
+  color: black;
+  cursor: pointer;
+}
+
+.hero-section img {
+  width: 100%;
+  height: 800px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+.hero-section {
+  padding-top: 125px;
+}
+
+
+.footer{
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-link{
+  margin: 10px;
+}
+
+.footer-link h4{
+  margin-top: 0;
+}
+
+.footer-link ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.footer-link li{
+  margin-bottom: 10px;
+}
+
+
+.footer-link a{
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer1 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
